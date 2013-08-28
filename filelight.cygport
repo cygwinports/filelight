@@ -1,0 +1,10 @@
+inherit kde4
+
+NAME="filelight"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="Utils"
+SUMMARY="KDE disk space usage analyzer"
+DESCRIPTION="Part of the KDE utilities suite"
+
+PATCH_URI="4.6.4-fstab.h.patch"
