@@ -6,8 +6,8 @@ We don't have this header, but it doesn't appear to be used anyway.
  #include <dirent.h>
  #ifdef Q_OS_SOLARIS
  #include <sys/vfstab.h>
--#elif !defined(Q_WS_WIN)
-+#elif !defined(Q_WS_WIN) && !defined(Q_OS_CYGWIN)
+-#elif !defined(Q_OS_WIN)
++#elif !defined(Q_OS_WIN) && !defined(Q_OS_CYGWIN)
  #include <fstab.h>
  #endif
  #include <sys/stat.h>
