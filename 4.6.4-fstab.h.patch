@@ -1,7 +1,7 @@
 We don't have this header, but it doesn't appear to be used anyway.
 
---- origsrc/kdeutils-4.6.4/filelight/src/part/localLister.cpp	2011-02-25 15:47:49.000000000 -0600
-+++ src/kdeutils-4.6.4/filelight/src/part/localLister.cpp	2011-06-19 17:13:50.062551700 -0500
+--- filelight/src/localLister.cpp	2011-02-25 15:47:49.000000000 -0600
++++ filelight/src/localLister.cpp	2011-06-19 17:13:50.062551700 -0500
 @@ -38,7 +38,7 @@
  #include <dirent.h>
  #ifdef Q_OS_SOLARIS
